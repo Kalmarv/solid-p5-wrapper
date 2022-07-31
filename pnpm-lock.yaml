@@ -13,11 +13,11 @@ specifiers:
   vite-plugin-solid: ^2.3.0
 
 dependencies:
-  '@types/p5': 1.4.2
   p5: 1.4.2
 
 devDependencies:
   '@kalmarv/prettier-config': 1.0.2
+  '@types/p5': 1.4.2
   prettier: 2.7.1
   rollup: 2.77.2
   rollup-preset-solid: 1.4.0
@@ -1358,7 +1358,7 @@ packages:
 
   /@types/p5/1.4.2:
     resolution: {integrity: sha512-tzJ2PdmeXlX8tidbA1/pQEhs0MHVWam0K4ux5ri0GrZXhBU3QrpTpSVzNaBDuo6KheryHdH8wR82x1nPvxo42g==}
-    dev: false
+    dev: true
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}

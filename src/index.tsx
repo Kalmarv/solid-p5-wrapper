@@ -1,4 +1,4 @@
-import * as p5 from 'p5'
+import p5 from 'p5'
 import { Component, createMemo, createSignal, onCleanup, onMount, splitProps } from 'solid-js'
 import { createStore } from 'solid-js/store'
 
