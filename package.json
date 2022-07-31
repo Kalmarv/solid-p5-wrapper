@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "solid-p5-wrapper",
   "description": "A solidjs wrapper for p5.js",
   "license": "MIT",
