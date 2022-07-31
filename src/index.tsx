@@ -1,4 +1,4 @@
-import p5 from 'p5'
+import * as p5 from 'p5'
 import { Component, createMemo, createSignal, onCleanup, onMount, splitProps } from 'solid-js'
 import { createStore } from 'solid-js/store'
 
@@ -12,6 +12,8 @@ export interface P5WrapperProps {
 }
 
 const createCanvas = (sketch: Sketch, container: HTMLDivElement): p5 => {
+  // Just for p5 imports
+  // @ts-ignore
   return new p5(sketch, container)
 }
 
