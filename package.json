@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "solid-p5-wrapper",
   "description": "A solidjs wrapper for p5.js",
   "license": "MIT",
@@ -60,5 +60,6 @@
   "dependencies": {
     "@types/p5": "^1.4.2",
     "p5": "^1.4.2"
-  }
+  },
+  "packageManager": "^pnpm@7.0.0"
 }
